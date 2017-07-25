@@ -1,0 +1,26 @@
+@mixin hr(){
+	margin-top: 0;
+    margin-bottom: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+@mixin relativeTop(){
+	position:relative;
+	margin-top: -60px;
+}
+
+@mixin paddingSections(){
+	padding-top:$padding_sections;
+	padding-bottom:$padding_sections;
+}
+
+@mixin homeImg(){
+	padding: 1em;
+	border-radius: 20px;
+}
+
+@mixin navfoot(){
+	color: $color_text2;
+	background-color: $footer_navbar_color;
+}
